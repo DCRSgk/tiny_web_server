@@ -35,7 +35,7 @@ endforeach()
 
 configure_file(config.h.in config.h @ONLY)
 
-# 增加
+# 增加可执行文件和头文件
 add_executable(cpu_architecture "")
 target_sources(cpu_architecture
   PRIVATE

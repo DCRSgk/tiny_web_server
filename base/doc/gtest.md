@@ -13,3 +13,6 @@
 > sudo make
 > cd lib
 > sudo mv libg*.a /usr/lib
+
+# btw
+> 我把库编好放在项目里了 desu()
