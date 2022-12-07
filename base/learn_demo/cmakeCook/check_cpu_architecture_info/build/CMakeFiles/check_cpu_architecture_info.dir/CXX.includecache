@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/config.h
+
+/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/cpu_architecture.cpp
+config.h
+/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/config.h
+cstdlib
+-
+iostream
+-
+

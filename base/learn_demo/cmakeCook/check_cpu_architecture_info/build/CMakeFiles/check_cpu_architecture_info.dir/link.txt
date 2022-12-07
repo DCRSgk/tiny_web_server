@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/check_cpu_architecture_info.dir/cpu_architecture.cpp.o  -o check_cpu_architecture_info 
