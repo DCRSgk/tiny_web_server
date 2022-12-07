@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/cpu_architecture.cpp" "/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/build/CMakeFiles/cpu_architecture.dir/cpu_architecture.cpp.o"
+  "/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/cpu_architecture.cpp" "/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/build/CMakeFiles/cpu_architecture.dir/cpu_architecture.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

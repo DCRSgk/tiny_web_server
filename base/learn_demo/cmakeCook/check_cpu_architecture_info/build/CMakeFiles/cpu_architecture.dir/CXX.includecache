@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/config.h
-
-/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/cpu_architecture.cpp
+/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/cpu_architecture.cpp
 config.h
-/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/config.h
+/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/config.h
 cstdlib
 -
 iostream
 -
+
+config.h
 

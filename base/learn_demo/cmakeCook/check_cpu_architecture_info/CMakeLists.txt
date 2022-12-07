@@ -31,7 +31,6 @@ IN ITEMS
 )
 cmake_host_system_information(RESULT _${key} QUERY ${key})
 message(RESULT _${key} QUERY ${key})
-
 endforeach()
 
 configure_file(config.h.in config.h @ONLY)

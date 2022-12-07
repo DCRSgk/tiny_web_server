@@ -1,4 +1,4 @@
-# Install script for directory: /home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info
+# Install script for directory: /home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

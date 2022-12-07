@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/all42/learn/tiny_server/cmakeCook/check_cpu_architecture_info/build 
+CXX_INCLUDES = -I/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/build 
 
