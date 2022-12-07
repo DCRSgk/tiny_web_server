@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/cpu_architecture.dir/cpu_architecture.cpp.o  -o cpu_architecture 

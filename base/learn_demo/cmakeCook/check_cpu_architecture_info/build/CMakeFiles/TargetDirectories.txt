@@ -1,3 +1,0 @@
-/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/build/CMakeFiles/rebuild_cache.dir
-/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/build/CMakeFiles/edit_cache.dir
-/home/all42/learn/tiny_server/base/learn_demo/cmakeCook/check_cpu_architecture_info/build/CMakeFiles/cpu_architecture.dir
