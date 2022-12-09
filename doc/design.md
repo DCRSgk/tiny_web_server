@@ -6,3 +6,9 @@
 
 - cmake-cook 
 
+- install llvm
+> sudo mkdir -p /usr/local
+> cd /usr/local
+> sudo wget https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04.tar.xz
+> sudo tar xvf clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04.tar.xz
+> sudo mv clang+llvm-13.0.0-x86_64-linux-gnu-ubuntu-20.04 llvm
