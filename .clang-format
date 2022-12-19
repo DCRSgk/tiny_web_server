@@ -24,22 +24,22 @@ AlwaysBreakTemplateDeclarations: MultiLine
 BinPackArguments: true
 BinPackParameters: true
 BraceWrapping:
-AfterCaseLabel:  false
-AfterClass:      true
-AfterControlStatement: false
-AfterEnum:       false
-AfterFunction:   true
-AfterNamespace:  true
-AfterObjCDeclaration: false
-AfterStruct:     false
-AfterUnion:      false
-AfterExternBlock: false
-BeforeCatch:     false
-BeforeElse:      false
-IndentBraces:    true
-SplitEmptyFunction: true
-SplitEmptyRecord: true
-SplitEmptyNamespace: true
+  AfterCaseLabel:  false
+  AfterClass:      true
+  AfterControlStatement: false
+  AfterEnum:       false
+  AfterFunction:   true
+  AfterNamespace:  true
+  AfterObjCDeclaration: false
+  AfterStruct:     false
+  AfterUnion:      false
+  AfterExternBlock: false
+  BeforeCatch:     false
+  BeforeElse:      false
+  IndentBraces:    true
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
 BreakBeforeBinaryOperators: All
 BreakBeforeBraces: Linux
 BreakBeforeInheritanceComma: false
@@ -132,5 +132,3 @@ StatementMacros:
 TabWidth:        4
 UseCRLF:         false
 UseTab:          Never
-
-
