@@ -1,4 +1,5 @@
 #include <iostream>
+#include "logger.h"
 
 int main(int argc, char* argv[])
 {
@@ -9,7 +10,18 @@ int main(int argc, char* argv[])
 
     // 加载http
 
-    std::cout<< "helly tiny web server" << std::endl;
+    // TODO 加载文件日志系统
+
+    LOG_DEBUG("hello tiny web server\n ");
+    LOG_WARN("hello tiny web server\n ");
+    LOG_ERROR("hello tiny web server\n ");
+
+    // LOG_PANIC("hello tiny web server\n ");
+
+    // TS_LOG_DEBUG("hello tiny web server\n ");
+    // TS_LOG_WARN("hello tiny web server\n ");
+    // TS_LOG_ERROR("hello tiny web server\n ");
+    // std::cout<< "hello tiny web server\n " << std::endl;
 
     return 0;
 
