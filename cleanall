@@ -1,0 +1,14 @@
+#!/bin/bash
+
+declare -a PROJECTS=(
+"base"
+"test"
+)
+
+for proj in ${PROJECTS[@]}
+do
+    rm -r $proj/build
+    #make clean
+    #cd -
+done
+

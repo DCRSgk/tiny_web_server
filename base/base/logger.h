@@ -31,8 +31,8 @@ namespace base
             return ins;
         }
 
-        bool Setup(const std::string& logdir, LogLevel loglevel = LogLevelDebug);
-
+        // bool Setup(const std::string& logdir, LogLevel loglevel = LogLevelDebug);
+        
         void Debug(const char* format, ...);
         void Debug2(const char* info, const char* format, ...);
         void Debug3(const char* file, int line, const char* format, ...);

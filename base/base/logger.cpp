@@ -3,7 +3,7 @@
 #include <cstdio>
 #include <cstdarg>
 #include <mutex>
-// #include "utils/file.h"
+#include "file.h"
 
 namespace base
 {
@@ -33,22 +33,23 @@ namespace base
     //     return OpenLogFile();
     // }
 
-    // bool FileLogger::OpenLogFile()
-    // {
-    //     char filename[128];
-    //     strcpy(filename, dir_.c_str());
-    //     utils::dir_ensure(filename, 0765);
-    //     sprintf(filename + strlen(filename), "/log_%d.%.2d.%.2d",
-    //             start_.tm_year + 1900, start_.tm_mon + 1, start_.tm_mday);
 
-    //     if (fd_ != NULL) {
-    //         fclose(fd_);
-    //         fd_ = NULL;
-    //     }
+    bool FileLogger::OpenLogFile()
+    {
+        char filename[128];
+        strcpy(filename, dir_.c_str());
+        utils::dir_ensure(filename, 0765);
+        sprintf(filename + strlen(filename), "/log_%d.%.2d.%.2d",
+                start_.tm_year + 1900, start_.tm_mon + 1, start_.tm_mday);
 
-    //     fd_ = fopen(filename, "a");
-    //     return fd_ != NULL;
-    // }
+        if (fd_ != NULL) {
+            fclose(fd_);
+            fd_ = NULL;
+        }
+
+        fd_ = fopen(filename, "a");
+        return fd_ != NULL;
+    }
 
     void FileLogger::CheckIfCreateNew()
     {
@@ -59,7 +60,7 @@ namespace base
                 now_.tm_mday != start_.tm_mday) {
             // 当前时间与当前日志文件所属时间不在同一天
             start_ = now_;
-            // OpenLogFile();
+            OpenLogFile();
         }
     }
 
@@ -133,6 +134,9 @@ namespace base
 
     void FileLogger::Debug(const char* format, ...)
     {
+        std::cout << "begin debug" << endl;
+        std::cout << "begin debug level_  --> " << level_ << endl;
+
         if (level_ <= LogLevelDebug) {
             CheckIfCreateNew();
             print_header(fd_, now_, LogLevelDebug);
